@@ -7,7 +7,7 @@ A vulnerable application made using node.js, express server and ejs template eng
 ## Clone this repository
 
 ```bash
-git clone https://github.com/4auvar/VulnNodeApp.git
+git clone https://github.com/tucommenceapousser/VulnNodeApp.git
 ```
 
 ## Application setup:
@@ -20,10 +20,10 @@ git clone https://github.com/4auvar/VulnNodeApp.git
 - Login with root user in mysql and run below sql script:
 
 ```sql
-CREATE USER 'vulnnodeapp'@'localhost' IDENTIFIED BY 'password';
-create database vuln_node_app_db;
-GRANT ALL PRIVILEGES ON vuln_node_app_db.* TO 'vulnnodeapp'@'localhost';
-USE vuln_node_app_db;
+CREATE USER 'trhacknon'@'localhost' IDENTIFIED BY 'password';
+create database trkn_node_app_db;
+GRANT ALL PRIVILEGES ON trkn_node_app_db.* TO 'trhacknon'@'localhost';
+USE trkn_node_app_db;
 create table users (id int AUTO_INCREMENT PRIMARY KEY, fullname varchar(255), username varchar(255),password varchar(255), email varchar(255), phone varchar(255), profilepic varchar(255));
 insert into users(fullname,username,password,email,phone) values("test1","test1","test1","test1@test.com","976543210");
 insert into users(fullname,username,password,email,phone) values("test2","test2","test2","test2@test.com","9887987541");
